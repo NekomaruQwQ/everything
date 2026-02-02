@@ -1,6 +1,6 @@
 [package]
 name = "everywhere"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 authors = ["Nekomaru <Nekomaru@pku.edu.cn>"]
@@ -9,6 +9,9 @@ repository = "https://github.com/NekomaruQwQ/everywhere"
 documentation = "https://docs.rs/everywhere"
 keywords = ["everything", "search", "windows", "filesystem", "voidtools"]
 categories = ["filesystem", "os::windows-apis"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-pc-windows-msvc"]
 
 [dependencies]
 bitflags = "2.10.0"
